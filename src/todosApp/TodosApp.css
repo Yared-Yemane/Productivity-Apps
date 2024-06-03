@@ -1,0 +1,179 @@
+.TodosApp {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7c748f;
+}
+
+.todos-container {
+  width: 70vw;
+  height: 90vh;
+  background: #276c91;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.todos-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.todos-title::after {
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+}
+
+.todos-container .todos-form {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todos-container .todos-form .todos-form-control {
+  width: 87%;
+  height: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.todos-container .todos-form .todos-btn {
+  width: 10%;
+  height: 35px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.todos-container .todos-form .todos-btn.todos-btn:hover {
+  background: #fff;
+  color: #276c91;
+}
+
+.todos-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.todo-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  display: inline;
+}
+
+.todo-title::after {
+  content: "";
+  width: 105px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+}
+
+.todos-list {
+  width: 31%;
+  height: 68vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.todos-list::-webkit-scrollbar {
+  background: transparent;
+}
+
+.todos-card-text::-webkit-scrollbar {
+  background: transparent;
+}
+
+.todo-card {
+  width: 100%;
+  height: auto;
+  color: #276c91;
+  background: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-right: 6px;
+}
+
+.todo-card .todos-card-text {
+  margin: auto;
+}
+
+.icon-check-todo {
+  background: #276c91;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.icon-trash-todo {
+  background: #e40505;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  margin-left: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.todos-progress-card {
+  width: 100%;
+  height: auto;
+  color: black;
+  background: yellow;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.icon-progress-todo {
+  background: #fff;
+  color: green;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.todos-card-text {
+  margin-bottom: -5px;
+  margin-top: -5px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.todos-completed-card {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  background: #00b09b;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+}

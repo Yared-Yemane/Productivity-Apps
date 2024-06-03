@@ -1,0 +1,22 @@
+.exp-body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 237);
+  padding-left: 100px;
+}
+
+.exp-title {
+  margin-right: -340px;
+  margin-top: 30px;
+  /* padding-bottom: 100px; */
+}
+
+.exp-title h4 {
+  font-size: 25px;
+  /* paddid-bottom: 200px; */
+}
+
+.exp-container {
+  margin-top: 70px;
+  margin-left: 100px;
+}

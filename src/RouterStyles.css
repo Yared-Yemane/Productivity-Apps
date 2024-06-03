@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif;
+}
+/*
+.site-title {
+  margin-right: 615px;
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+  align-items: center;
+  width: 1360px;
+  height: 70px;
+  font-size: medium;
+  /* padding-right: 20px; */
+/* position: fixed;
+  min-height: 0px; */
+/* border-radius: 8x; */
+/* } */
+
+/* .nav-link {
+  padding-right: 1.5rem;
+  color: white;
+  width: inherit;
+  font-size: small;
+} */
+
+/* .nav-link.active {
+  color: chocolate;
+}
+
+.nav-link:hover {
+  color: #f1bc0d;
+}
+.nav-logo {
+  margin-right: 700px;
+  margin-left: 40px;
+} */
+
+/* .nav-logo img { */
+/* width: 70px;*/
+/* height: 64px;
+  background-color: black; */
+/* margin-right: 780px; */
+/* } */
+
+/* ======================================================================================================= */
+/* ======================================================================================================= */
+
+.app-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #0f172a;
+}
+
+.app-nav .app-title {
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.app-nav ul {
+  display: flex;
+  /* position: absolute; */
+}
+
+.app-nav ul li {
+  list-style: none;
+}
+
+.app-nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.app-nav a:active {
+  background-color: #002292;
+}
+
+.app-nav a:hover {
+  background-color: #f1bc0d;
+}
+
+.app-nav-toggler {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+/* .app-nav-toggler span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.2rem;
+} */
+
+.hamburger-react {
+  margin-left: -2rem;
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .hamburger-react {
+    display: flex;
+  }
+
+  .app-nav-toggler {
+    display: flex;
+  }
+
+  .app-nav {
+    flex-direction: column;
+    align-items: start;
+    /* transition: all 0.3s ease-in-out; */
+  }
+
+  .app-nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  .app-nav ul.open {
+    display: flex;
+  }
+
+  .app-nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-nav a {
+    margin: 0.2rem 0.5rem;
+  }
+}
